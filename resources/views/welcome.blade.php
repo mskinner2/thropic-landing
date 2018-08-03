@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Thropic</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -14,53 +14,33 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 400;
                 height: 100vh;
                 margin: 0;
             }
 
-            .full-height {
-                height: 100vh;
+            section {
+              height: 100vh;
+              width: 100vw;
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
+            .logo {
+
             }
 
-            .position-ref {
-                position: relative;
+            .logo img {
+              max-width: 250px;
             }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
-                    Thropic
-                </div>
-            </div>
-        </div>
+        <section>
+          <div class="logo">
+              <img src="{{ asset('images/thropic-logo.svg') }}">
+          </div>
+        </section>
     </body>
 </html>
